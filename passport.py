@@ -7,4 +7,8 @@ while p > 0:
 		break
 	else:
 		p = p - 1
-		print('密碼錯誤! 還剩', p, '次機會') 
+		print('密碼錯誤!') 
+		if p > 0:
+			print('還剩', p, '次機會')
+		else:
+			print('你沒機會了')
